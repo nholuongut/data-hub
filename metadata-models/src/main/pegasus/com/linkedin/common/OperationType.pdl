@@ -1,0 +1,14 @@
+namespace com.linkedin.common
+
+/**
+  * Enum to define the operation type when an entity changes.
+  */
+enum OperationType {
+  INSERT
+  UPDATE
+  DELETE
+  CREATE
+  ALTER
+  DROP
+  UNKNOWN
+}
